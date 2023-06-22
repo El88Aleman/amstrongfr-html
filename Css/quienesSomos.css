@@ -1,0 +1,56 @@
+html,body{
+    width: 100%;
+} 
+body{
+    background-image:url(../Images/fondoQuienesSomos.png.png);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    overflow-x: hidden;
+}
+.home, ul, li, a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "rw-creepsville";
+    color: yellow;
+    font-size: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding-top: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.texto{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: "melted monster";
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+}
+.bg-texto{
+    background-color: rgba(245, 231, 174, 0.2);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+@font-face {
+    font-family:"melted monster";
+    src: url(../Tipografias/meltedMonster.ttf);
+}
+@font-face {
+    font-family: "rw-creepsville";
+    src: url(../Tipografias/rw-creepsville.ttf);
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.logo{
+    margin: 20px;
+}
+.contenedor{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+}
+.menu-horizontal{
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family:"rw-creepsville";
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu-horizontal li a{
+    display: block;
+    padding: 15px 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: yellow;
+    font-size: 35px;
+} 
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    font-size: 15px;
+    font-family:"rw-creepsville";
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:"rw-creepsville";
+}
+.menu-vertical li a{
+    display: block;
+    color: blueviolet;
+    padding: 15px 15px 15px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.parallax{
+        background-image: url("../images/ysyA/ysyaHechoAMano.png");
+        height: 600px;
+        background-color: beige;
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.carousel{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+.text-footer{
+    font-family:"rw-creepsville";
+    font-size: 30px;
+    color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.wp{ 
+    margin-bottom: 25px;
+    margin-left: 70px;
+    
+}
+.ig{
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+
+@font-face {
+    font-family:"rw-creepsville";
+    src: url(../Tipografias/rw-creepsville.ttf);
+}

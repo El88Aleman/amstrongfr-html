@@ -1,0 +1,64 @@
+html,body{
+    width: 100%;
+} 
+body{
+    background-color: black;
+}
+.home, ul, li, a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "rw-creepsville";
+    color: yellow;
+    font-size: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding-top: 20px;
+}
+.mb-3{
+    font-family:"melted monster";
+    color: orangered;
+    font-size: 30px;
+    margin: 50px;
+}
+.btn-outline-dark{
+    font-family: "rw-creepsville";
+    font-size: 20px;
+    color: orangered;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 30px;
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "rw-creepsville";
+    font-size: 30px;
+    color: orangered;
+    margin: 10px;
+}
+.wp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family:"melted monster";
+    src: url(../Tipografias/meltedMonster.ttf);
+}
+@font-face {
+    font-family: "rw-creepsville";
+    src: url(../Tipografias/rw-creepsville.ttf);
+}
